@@ -7,11 +7,53 @@
     <title>Document</title>
     <style>
         body{
-            background-color: skyblue;
+            background-color: rgb(207, 230, 239);
+            font-size: medium;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        #recipes a{
+            line-break: auto;
+            text-decoration: none;
+            text-align: center;
+            font-size: large;
+            color: rgb(8, 0, 249);
+            margin-left: 25%;
+        }
+        #peas{
+            float: left;
+            margin: 25px;
+            padding: 30px;
+        }
+        #spicy{
+            float: left;
+            margin: 25px;
+            padding: 30px;
+        }
+        #haitian{
+            float: left;
+            margin: 25px;
+            padding: 30px;
         }
     </style>
 </head>
 <body>
     <h1 style="text-align: center;">odin-recipes</h1>
+    <div id="recipes">
+        <div id="peas">
+            <img src="fried black eye peas.jpeg" width="500px" height="500px">
+            <h2><a href="recipes/Fried-Black-Eye-Peas.html">black eye peas</a></h2>
+        </div>
+    
+        <div id="spicy">
+            <img src="Spicy Grilled Shrimp.jpeg" width="500px" height="500px">
+            <h2><a href="recipes/Spicy-Grilled-Shrimp.html">Spicy Grilled Shrimp</a></h2>
+        </div>
+    
+        <div id="haitian">
+            <img src="Haitian-Style Fried Chicken.jpeg" width="500px" height="500px">
+            <h2><a href="recipes/Haitian-Style-Fried-Chicken.html">Haitian-Style Fried Chicken</a></h2>
+        </div>
+    </div>
+    
 </body>
 </html>
