@@ -1,0 +1,10 @@
+git hub master
+
+git status
+git start next
+git add .
+git add file
+git commit -m "commit message"
+git push
+git verify
+git reset
